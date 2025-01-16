@@ -1,5 +1,5 @@
 # Select color scheme
-colorscheme="cherry-light"
+colorscheme="nord"
 
 # Define whether or not zsh should use syntax highlighting
 syntax="true"
@@ -9,15 +9,15 @@ suggestion="true"
 
 # How the prompt should be displayed, whether in a single line or two lines.
 # normal, jump
-Prompt_Style="normal"
+Prompt_Style="jump"
 
 # Indicator style
-# ▶, ▷, λ, ↳, ⇀, −, ⊸, ◯, ♡, ♥, , , 
-Indicator="λ"
+# , ▶, ▷, λ, ↳, ⇀, −, ⊸, ◯, ♡, ♥, , , 
+Indicator=""
 
 # Whether username and hostname should be displayed.
-User="true"
-Host="true"
+User="false"
+Host="false"
 
 # Whether the command number that was given should be displayed.
 Command_Number="false"
@@ -27,7 +27,7 @@ Path="true"
 
 # The style in which the directory path will be displayed.
 # small, medium, large
-Path_Style="medium"
+Path_Style="small"
 
 # Display the number of folders in the current directory.
 Folders="false"
@@ -42,7 +42,7 @@ Dir_Size="false"
 Erro_Indicator="false"
 
 # Within a git directory some information will be displayed.
-Git_Status="true"
+Git_Status="false"
 
 # Set whether the time should be displayed
 Clock="false"
@@ -54,7 +54,7 @@ Clock="false"
 Clock_Format="H:M"
 
 # Some prompt elements will be displayed using POWERLINE decoration
-Powerline="true"
+Powerline="false"
 
 # If user POWERLINE, the style that will be used.
 # rounded, square, fragment, flame, none
