@@ -1,0 +1,1 @@
+require("four.colors.four").setup()

@@ -1,0 +1,59 @@
+@theme "/dev/null"
+@import "dark.rasi"
+
+configuration {
+  show-icons:           false;
+  font:                 "JetBrainsMono Nerd Font 12";
+}
+
+window {
+  background-color:     @bg;
+  transparency:         "real";
+  width:                30%;
+  height:               30%; 
+  border:               2px;
+  border-color:         @fg;         
+  children:             [ inputbar, listview];
+}
+
+entry {
+  background-color:     transparent;
+  color:                @fg;
+  expand:               true;
+  blink:                true;
+}
+
+inputbar {
+  expand:               false;
+  background-color:     @bg;
+  padding:              10px 5px;
+}
+
+listview {
+  background-color:     @bg;
+  cycle:                true;
+  layout:               vertical;
+  dynamic:              true;
+  columns:              1;
+  padding: 10px;
+}
+
+element {
+  background-color:     transparent;
+  orientation:          vertical;
+  padding:              3px 5px;
+}
+
+element-text {
+    background-color: transparent;
+    expand:             true;
+    horizontal-align:   0;
+    vertical-align:     1;
+    margin:             0 4px;
+    text-color:         inherit;
+}
+
+element selected.normal {
+  text-color:           @hover;
+  background-color:     @fg;
+}

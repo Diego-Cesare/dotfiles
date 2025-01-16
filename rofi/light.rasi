@@ -1,0 +1,7 @@
+*{
+  bg:        #f8f9fa;
+  fg:        #414868;
+  hover:     #ffffff;
+  background-color: transparent;
+  text-color: @fg;
+}
